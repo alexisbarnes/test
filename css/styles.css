@@ -1,0 +1,516 @@
+/*------GLOBAL STYLES---*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #000;
+  margin: 0 0 80px; /* bottom = footer height */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  /*font-family: 'Pinyon Script', cursive;*/
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 4em;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  flaot: right;
+}
+
+.margin-top {
+  margin-top: 40px;
+}
+
+/*---IMGS---*/
+.banner {
+  max-height: 600px;
+}
+
+.album {
+  max-width: 200px;
+  max-height: 300px;
+  margin: 0 20px 40px 0;
+}
+
+/*--Bio--*/
+.bio {
+  padding-top: 10px;
+}
+
+/*--Info Box--*/
+.tour-info-head {
+  width: auto;
+  background-color: #000;
+  height: 50px;
+  border: 1px solid #fff;
+}
+
+.tour-txt {
+  margin: 6px 0 0 0;
+}
+
+#tour-info {
+  width: auto;
+  height: 500px;
+  overflow: scroll;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.info-bg {
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+  padding: 10px 0 10px 10px;
+}
+
+.stadium-box {
+  color: #000;
+  font-size: 25px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.location-box {
+  color: #000;
+  font-size: 18px;
+}
+
+.date-box {
+  color: #000;
+  margin: 0 0 0 0;
+
+}
+
+.sub-title-box {
+  color: #000;
+  font-weight: bold;
+}
+
+.time-box {
+  color: #000;
+  margin: 0 0 0 0;
+
+}
+
+.address-box {
+  color: #000;
+  margin: 0 0 0 0;
+
+}
+
+.number-box {
+  color: #000;
+}
+
+.site-box {
+  color: #000;
+}
+
+.site-box a {
+  color: #ED4F85;
+}
+
+.site-box a:hover {
+  color: #000;
+}
+
+/*--Twitter--*/
+#twitter {
+  max-width: 320px;
+  max-height: 408px;
+  overflow-y:auto;
+  overflow-x: none;
+  margin: 0 auto;
+  display: block;
+  border-right: 1px solid #CCD6DD;
+  border-left: 1px solid #CCD6DD;
+  border-bottom: 1px solid #CCD6DD;
+  border-top: none;
+}
+
+@media only screen and (max-width: 1199px){
+  #twitter {
+    max-width: 293px;
+  }
+
+  .twitter-headertxt {
+    padding-left: 80px !important;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  #twitter {
+    max-width: 320px;
+  }
+
+  .twitter-headertxt {
+    padding-left: 105px;
+  }
+
+  /*.instagram-content {
+    margin: -10px 0 0 20px !important;
+  }*/
+
+  .all-twitter {
+    float: left;
+    margin: 12px 0 0 20px;
+  }
+}
+
+
+.twitter-content {
+  max-width: 320px;
+  margin: 0 auto;
+  display: block;
+}
+
+.twitter-head {
+  background-color: #000;
+  height: 50px;
+  border: 1px solid #fff;
+}
+
+.twitter-headertxt {
+  font-family: 'Open Sans';
+  font-size: 28px;
+  color: #fff;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 8px;
+  font-weight: 600;
+  padding-left: 105px;
+  margin: 0 10px 0 0;
+}
+
+.twitter-headertxt a {
+  color: #fff;
+}
+
+.twitter-input {
+  max-width: 320px;
+  margin: 0 auto;
+  display: block;
+}
+
+.input-group {
+  width: 100% auto;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 4px 0;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+#twitter-input {
+  border-radius: 5px;
+}
+
+.twitter-input-div {
+  background-color: #E5E5E5;
+  height: 42px;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  display: block;
+}
+
+.twitter-bird {
+  max-width: 30px;
+  margin-left: 70px;
+  padding-left: 6px;
+  padding-bottom: 3px;
+}
+
+
+
+/*--Instagram--*/
+#instagram, #instagram-formation {
+  max-width: 320px;
+  max-height: 450px;
+  overflow-y: auto;
+  overflow-x: none;
+  margin: 0 auto;
+  display: block;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+#instagram, #instagram-formation, #twitter-formation {
+  margin-bottom: 25px;
+  background-color: #fff;
+  border-left: 1px;
+  border-right: 1px;
+}
+
+.instagram-content {
+  max-width: 320px;
+  margin: 0 0 0 10px;
+}
+
+.instagram-header {
+  background-color: #000;
+  height: 50px;
+  border: 1px solid #fff;
+}
+
+.instagram-icon {
+  max-width: 30px;
+  margin-left: 70px;
+  padding-left: 6px;
+  padding-bottom: 3px;
+}
+
+.socialmedia-link-ig {
+  margin: 0 0 0 50px;
+}
+
+.instagram-headertxt {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 35px;
+  color: #fff;
+  /*letter-spacing: 1.5px;*/
+  text-align: center;
+  /*padding-top: 7px;*/
+  margin: 6px 0 0 0;
+}
+
+.instagram-headertxt a {
+  color: #fff;
+}
+
+.instagram-profilepictures {
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-left: -5px;
+}
+
+.instagram-username {
+  display: inline-block;
+}
+
+.instagram-username-div {
+  margin-top: 8px;
+  padding-left: 15px;
+}
+
+.instagram-username-div a {
+  color: #ED4F85;
+}
+
+.instagram-date-div {
+  margin-top: -6px;
+}
+
+.instagram-username-caption {
+  display: inline;
+  margin-right: 5px;
+}
+
+.instagram-username-caption a {
+  color: #ED4F85;
+}
+
+.instagram-caption-div {
+  margin: 0 10px 0 10px;
+  overflow-x: hidden;
+}
+
+.instagram-image {
+  max-width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.instagram-loop {
+  margin: 8px 0 25px 0;
+  border-bottom: 1px solid #000;
+  padding: 0 0 15px 0;
+}
+
+.instagram-caption {
+  margin: 0 10px 10px 10px;
+}
+
+.col2insta {
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+.ig-heart {
+  max-width: 15px;
+  margin: 0 5px 0 5px;
+}
+
+/*---Map--*/
+.map-head {
+  width: auto;
+  background-color: #000;
+  height: 50px;
+  border: 1px solid #fff;
+}
+
+.map-txt {
+  margin: 6px 0 0 0;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+.stadium {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 18pt;
+  margin: 0 0 -10px 0;
+  text-align: left;
+  font-weight: 900;
+}
+
+.location {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin: 0 0 0 0;
+  color: #000;
+  text-align: left;
+  font-size: 13pt;
+}
+
+.date {
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 0 0 0;
+  color: #000;
+}
+
+.time {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 0 0;
+  color: #000;
+}
+
+.details-box {
+  background-color: #e6e6e6;
+  padding: 10px;
+}
+
+.address {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 0 0;
+  color: #000;
+}
+
+.number {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 0 0;
+  color: #000;
+}
+
+.site {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 0 0;
+}
+
+.site a {
+  text-decoration: none;
+  color: #ED4F85;
+}
+
+.site a:hover {
+  color: #000;
+}
+
+.sub-title {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-weight: 700;
+}
+
+
+/*---SPOTIFY--*/
+.spotify-head {
+  width: 300px;
+  background-color: #000;
+  height: 50px;
+  border: 1px solid #fff;
+}
+
+.spotify-txt {
+  margin: 6px 0 0 0;
+}
+
+.spotify-bg {
+  background-color: #fff;
+  width: 300px;
+  height: 450px;
+}
+
+
+/*---MEDIA QUERIES--*/
+@media screen and (max-width: 493px) {
+  .album {
+    margin: 0 20px 10px 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .tour-info {
+    margin: 30px 0 0 0;
+  }
+
+  .instagram-content {
+    margin: 30px 0 0 20px;
+  }
+
+  .spotify-content {
+    margin: 30px 0 0 20px;
+  }
+
+  .spotify-bg {
+    background-color: #000;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .twitter-headertxt {
+    margin: 8px 8px 0 0;
+    padding-top: 0;
+    padding-left: 0;
+  }
+}

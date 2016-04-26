@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>The Formation World Tour</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Pinyon+Script|Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+  </head>
+
+  <header>
+    <img src="img/banner.png" class="banner" width="100%">
+  </header>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bio">
+          <h1>Beyonc&eacute; : The Formation World Tour</h1>
+          <img src="img/lemonade.jpg" class="float-left album">
+          <p class="float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a neque imperdiet, dapibus orci ut, scelerisque justo. Ut in ante sem. Curabitur et ligula feugiat, eleifend nibh et, vestibulum purus. Duis vehicula enim dui, et scelerisque justo mollis non. Nunc commodo, nisl eget sagittis scelerisque, nibh dolor pulvinar eros, eget suscipit metus odio dignissim orci. Mauris nec dignissim sapien.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+          <div class="map-head"><h2 class="map-txt">Tour Route</h2></div>
+          <div id="map"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tour-info">
+          <div class="tour-info-head"><h2 class="tour-txt">Tour Info</h2></div>
+          <div id="tour-info"></div>
+        </div>
+      </div>
+
+      <div class="row margin-top">
+        <!-- <div class="subtitle"><h2>#Formation</h2></div> -->
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <!--Twitter-->
+          <div class="all-twitter">
+          <div class="twitter-content">
+            <div class="twitter-head">
+              <a target="_blank" class="socialmedia-link" href="http://www.twitter.com"><h2 class="twitter-headertxt">Twitter<img class="twitter-bird" src="img/twitter.png"></a></h2>
+            </div>
+            <iframe id="twitter" src="twitter/index.php" name="twitter api" scrolling="yes" frameborder="1" marginwidth="0px" height="500px" width="320px"></iframe>
+        </div>
+        <!--Source: brmayes.com/dynamic/586/project_four-->
+        <div class="twitter-input-div">
+          <div class="twitter-input">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=%23formation">
+              <div class="input-group"><input id="input-input" type="text" class="form-control" placeholder="Tweet about #Formation" aria-describedby="basic-addon1"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+        </div>
+
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <!--Instagram-->
+          <!--Source: brmayes.com/dynamic/586/project_four-->
+          <div class="instagram-content">
+            <div class="instagram-header">
+              <h2 class="instagram-headertxt tk-tamarillo"><a class="socialmedia-link-ig" href="http://instagram.com" target="_blank">Instagram<img class="instagram-icon" src="img/instagram.png"></a><a href="."><div class="reload"></div></a></h2>
+            </div>
+            <div id="instagram"></div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 spotify-content">
+        <div class="spotify-head"><h2 class="spotify-txt">Listen</h2></div>
+        <div class="spotify-bg">
+          <div class="spotify-player">
+            <iframe src="https://embed.spotify.com/?uri=spotify:user:sonymusicentertainment:playlist:5Byx0IcL7WeuTsqhiZFV6Q&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+
+    <!-- <div clss="row">
+
+    </div> -->
+
+
+
+      <!-- <div class="row">
+        <div class="subtitle"><h2>Listen</h2></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+        </div>
+      </div> -->
+
+
+
+      <!-- <a class="play" href="#" onclick="toggleSound();"></a> -->
+      <!-- <div id="player" onclick="toggleSound();">Click to Toggle Sound</div> -->
+      <!-- <audio id="audio"><source src="formation.mp3" type="audio/mpeg">Your browser does not support this audio format.</audio> -->
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv_BFvSTyS5k2UaJ1qqcGhHERbDZZRIkM&callback=loadData"
+    async defer></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="instagram/instagram.js"></script>
+    <script src="js/map.js"></script>
+  </body>
+
+
+
+
+</html>
