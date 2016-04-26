@@ -1,0 +1,245 @@
+{"venues":[
+  {
+    "Stadium":"Marlins Park",
+    "Location":"Miami, FL",
+    "Date":"Wed, 04/27/16",
+    "Time":"7:30 PM",
+    "Address": "501 Marlins Way, Miami, FL 33125",
+    "Number":"+1 305-480-1300",
+    "Website": "www.marlins.com",
+    "Latitude":25.7793,
+    "Longitude":-80.22044
+  },
+  {
+    "Stadium":"Raymond James Stadium",
+    "Location":"Tampa, FL",
+    "Date":"Fri, 04/29/16",
+    "Time":"7:30 PM",
+    "Address": "4201 N Dale Mabry Hwy, Tampa, FL 33607",
+    "Number": "+1 813-350-6500",
+    "Website": "www.raymondjamesstadium.com",
+    "Latitude":27.97586,
+    "Longitude":-82.50333
+  },
+  {
+    "Stadium":"Georgia Dome",
+    "Location":"Atlanta, GA",
+    "Date":"Sun, 05/01/16",
+    "Time":"7:30 PM",
+    "Address":"1 Georgia Dome Dr, Atlanta, GA 30313",
+    "Number":"+1 404-223-9200",
+    "Website":"www.gadome.com",
+    "Latitude":33.75768,
+    "Longitude":-84.40082
+  },
+  {
+    "Stadium":"Carter Finley Stadium",
+    "Location":"Raleigh, NC",
+    "Date":"Tue, 05/03/16",
+    "Time":"7:30 PM",
+    "Address":"4600 Trinity Rd, Raleigh, NC 27607",
+    "Number": "+1 919-834-4000",
+    "Website": "www.gopack.com",
+    "Latitude":35.80044,
+    "Longitude":-78.72004
+  },
+  {
+    "Stadium":"Nissan Stadium",
+    "Location":"Nashville, TN",
+    "Date":"Thu, 05/05/16",
+    "Time":"7:30 PM",
+    "Address": "1 Titans Way, Nashville, TN 37213",
+    "Number": "+1 615-565-4300",
+    "Website": "www.titansonline.com",
+    "Latitude":36.16647,
+    "Longitude":-86.77128
+  },
+  {
+    "Stadium":"NRG Stadium",
+    "Location":"Houston, TX",
+    "Date":"Sat, 05/07/16",
+    "Time":"7:30 PM",
+    "Address": "Reliant Pkwy, Houston, TX 77054",
+    "Number": "+1 832-667-1400",
+    "Website": "www.nrgpark.com",
+    "Latitude":29.68472,
+    "Longitude":-95.4107
+  },
+  {
+    "Stadium":"AT&T Stadium",
+    "Location":"Arlington, TX",
+    "Date":"Mon, 05/09/16",
+    "Time":"7:30 PM",
+    "Address": "1 AT&T Way, Arlington, TX 76011",
+    "Number": "+1 817-892-4000",
+    "Website": "www.stadium.dallascowboys.com",
+    "Latitude":32.74728,
+    "Longitude":-97.09449
+  },
+  {
+    "Stadium":"Qualcomm Stadium",
+    "Location":"San Diego, CA",
+    "Date":"Thu, 05/12/16",
+    "Time":"7:30 PM",
+    "Address": "9449 Friars Rd, San Diego, CA 92108",
+    "Number": "+1 619-641-3100",
+    "Website": "www.sandiego.gov",
+    "Latitude":32.78311,
+    "Longitude":-117.11957
+  },
+  {
+    "Stadium":"Rose Bowl",
+    "Location":"Pasadena, CA",
+    "Date":"Sat, 05/14/16",
+    "Time":"7:30 PM",
+    "Address": "1001 Rose Bowl Dr, Pasadena, CA 91103",
+    "Number": "+1 626-577-3100",
+    "Website": "www.rosebowlstadium.com",
+    "Latitude":34.16132,
+    "Longitude":-118.16764
+  },
+  {
+    "Stadium":"Levi's Stadium",
+    "Location":"Santa Clara, CA",
+    "Date":"Mon, 05/16/16",
+    "Time":"7:30 PM",
+    "Address": "4900 Marie P DeBartolo Way, Santa Clara, CA 95054",
+    "Number": "+1 415-464-9377",
+    "Website": "www.levisstadium.com",
+    "Latitude":37.40316,
+    "Longitude":-121.9698
+  },
+  {
+    "Stadium":"CenturyLink Field",
+    "Location":"Seattle, WA",
+    "Date":"Wed, 05/18/16",
+    "Time":"7:30 PM",
+    "Address": "800 Occidental Ave S, Seattle, WA 98134",
+    "Number": "+1 206-381-7555",
+    "Website": "www.centurylinkfield.com",
+    "Latitude":47.59515,
+    "Longitude":-122.33163
+  },
+  {
+    "Stadium":"Commonwealth Stadium / Stade du Commonwealth",
+    "Location":"Edmonton, AB",
+    "Date":"Fri, 05/20/16",
+    "Time":"7:30 PM",
+    "Address": "11000 Stadium Rd, Edmonton, AB T5H 4E2, Canada",
+    "Number": "+1 780-442-5311",
+    "Website": "www.edmonton.ca",
+    "Latitude":53.55961,
+    "Longitude":-113.47616
+  },
+  {
+    "Stadium":"TCF Bank Stadium",
+    "Location":"Minneapolis, MN",
+    "Date":"Mon, 05/23/16",
+    "Time":"7:30 PM",
+    "Address": "420 SE 23rd Ave, Minneapolis, MN 55455",
+    "Number": "+1 612-624-8080",
+    "Website": "www.gophersports.com",
+    "Latitude":44.97652,
+    "Longitude":-93.22454
+  },
+  {
+    "Stadium":"Rogers Centre",
+    "Location":"Toronto, ON",
+    "Date":"Wed, 05/25/16",
+    "Time":"7:30 PM",
+    "Address": "1 Blue Jays Way, Toronto, ON M5V 1J1, Canada",
+    "Number": "+1 416-341-1000",
+    "Website": "www.rogerscentre.com",
+    "Latitude":43.64143,
+    "Longitude":-79.38935
+  },
+  {
+    "Stadium":"Soldier Field",
+    "Location":"Chicago, IL",
+    "Date":"Fri, 05/27/16 & Sat, 05/28/16",
+    "Time":"7:30 PM",
+    "Address": "1410 Museum Campus Dr, Chicago, IL 60605",
+    "Number": "+1 312-235-7000",
+    "Website": "www.soldierfield.net",
+    "Latitude":41.86231,
+    "Longitude":-87.61668
+  },
+  {
+    "Stadium":"Heinz Field",
+    "Location":"Pittsburgh, PA",
+    "Date":"Tue, 05/31/16",
+    "Time":"7:30 PM",
+    "Address": "100 Art Rooney Ave, Pittsburgh, PA 15212",
+    "Number": "+1 412-697-7700",
+    "Website": "www.steelers.com",
+    "Latitude":40.44676,
+    "Longitude":-80.01576
+  },
+  {
+    "Stadium":"Gillette Stadium",
+    "Location":"Foxborough, MA",
+    "Date":"Fri, 06/03/16",
+    "Time":"7:30 PM",
+    "Address": "1 Patriot PI, Foxborough, MA 02035",
+    "Number": "+1 508-543-8200",
+    "Website": "www.gillettestadium.com",
+    "Latitude":42.09094,
+    "Longitude":-71.26434
+  },
+  {
+    "Stadium":"Lincoln Financial Field",
+    "Location":"Philadelphia, PA",
+    "Date":"Sun, 06/05/16",
+    "Time":"7:30 PM",
+    "Address": "1 Lincoln Financial Field Way, Philadelphia, PA 19147",
+    "Number": "+1 267-570-4000",
+    "Website": "www.lincolnfinancialfield.com",
+    "Latitude":39.9008,
+    "Longitude":-75.16741
+  },
+  {
+    "Stadium":"Citi Field",
+    "Location":"Flushing, NY",
+    "Date":"Tue, 06/07/16 & Wed, 06/08/16",
+    "Time":"7:30 PM",
+    "Address": "123-01 Roosevelt Ave, New York, NY 11368",
+    "Number": "+1 718-507-8499",
+    "Website": "www.newyork.mets.mlb.com",
+    "Latitude":40.75708,
+    "Longitude":-73.84582
+  },
+  {
+    "Stadium":"M&T Bank Stadium",
+    "Location":"Baltimore, MD",
+    "Date":"Fri, 06/10/16",
+    "Time":"7:30 PM",
+    "Address": "1101 Russell St, Baltimore, MD 21230",
+    "Number": "+1 410-261-7283",
+    "Website": "www.baltimoreravens.com",
+    "Latitude":39.27798,
+    "Longitude":-76.6227
+  },
+  {
+    "Stadium":"Hersheypark Stadium",
+    "Location":"Hershey, PA",
+    "Date":"Sun, 06/12/16",
+    "Time":"7:30 PM",
+    "Address": "100 Herseypark Dr, Hersey, PA 17033",
+    "Number": "+1 717-534-3911",
+    "Website": "www.herseypa.com",
+    "Latitude":40.29012,
+    "Longitude":-76.65895
+  },
+  {
+    "Stadium":"Ford Field",
+    "Location":"Detroit, MI",
+    "Date":"Tue, 06/14/16",
+    "Time":"7:30 PM",
+    "Address": "2000 Brush St, Detrioit, MI 48226",
+    "Number": "+1 313-262-2000",
+    "Website": "www.detroitlions.com",
+    "Latitude":42.34,
+    "Longitude":-83.0456
+  }
+]
+}
